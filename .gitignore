@@ -1,0 +1,52 @@
+# Python / Backend
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+env/
+venv/
+.venv/
+*.egg-info/
+.pytest_cache/
+.coverage
+mlruns/
+mlflow_runs/
+
+# Flutter / Frontend (we add more when Flutter is created)
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+build/
+*.g.dart
+*.freezed.dart
+
+# General
+.DS_Store
+*.log
+*.tmp
+.idea/
+.vscode/
+
+# Environment variables & secrets (very important)
+.env
+.env.*
+!.env.example          # ← only if you have a template file with fake values
+
+# Docker local overrides (often contains secrets/ports)
+docker-compose.override.yml
+
+# Large binary ML files (add when you actually have big models)
+# backend/ml_models/*.pth
+# backend/ml_models/*.h5
+# backend/ml_models/*.pt
+# backend/ml_models/*.onnx
+
+# More OS / editor junk
+Thumbs.db
+ehthumbs.db
+desktop.ini
+*.swp
+*.swo
+*~
+*.bak
+*.orig

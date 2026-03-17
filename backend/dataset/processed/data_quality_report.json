@@ -1,0 +1,56 @@
+{
+  "global_zomato_restaurants.csv_raw": {
+    "stage": "raw",
+    "rows": 9551,
+    "columns": 18,
+    "missing_pct": 0.01,
+    "duplicates": 0,
+    "memory_mb": 7.11,
+    "timestamp": "2026-03-16T17:47:09.851830"
+  },
+  "food_delivery_eta.csv_raw": {
+    "stage": "raw",
+    "rows": 1000,
+    "columns": 9,
+    "missing_pct": 1.33,
+    "duplicates": 0,
+    "memory_mb": 0.26,
+    "timestamp": "2026-03-16T17:47:09.876673"
+  },
+  "order_history.csv_raw": {
+    "stage": "raw",
+    "rows": 100000,
+    "columns": 23,
+    "missing_pct": 0.0,
+    "duplicates": 0,
+    "memory_mb": 68.28,
+    "timestamp": "2026-03-16T17:47:10.628451"
+  },
+  "zomato_cleaned": {
+    "stage": "cleaned",
+    "rows": 9551,
+    "columns": 19,
+    "missing_pct": 0.0,
+    "duplicates": 0,
+    "memory_mb": 7.66,
+    "timestamp": "2026-03-16T17:47:10.701361"
+  },
+  "eta_cleaned": {
+    "stage": "cleaned",
+    "rows": 1000,
+    "columns": 9,
+    "missing_pct": 0.33,
+    "duplicates": 0,
+    "memory_mb": 0.26,
+    "timestamp": "2026-03-16T17:47:10.811978"
+  },
+  "demand_final": {
+    "stage": "final",
+    "rows": 112652,
+    "columns": 11,
+    "missing_pct": 0.0,
+    "duplicates": 6044,
+    "memory_mb": 15.11,
+    "timestamp": "2026-03-16T17:47:11.582466"
+  }
+}
