@@ -1,9 +1,12 @@
 class ApiConstants {
   ApiConstants._();
 
-  static const String baseUrl = 'http://192.168.29.215:8000';
+  // Live deployment — works from anywhere
+  static const String baseUrl = 'https://catering-backend-azyv.onrender.com';
 
-  // Endpoints
+  // For local development — uncomment this line, comment above line
+  // static const String baseUrl = 'http://192.168.29.215:8000';
+
   static const String health = '/health';
   static const String modelInfo = '/model-info';
   static const String cities = '/api/v1/cities';
