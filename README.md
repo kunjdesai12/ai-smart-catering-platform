@@ -1,7 +1,7 @@
 # 🍽️ AI Smart Catering Platform
 
 <p align="center">
-  <img src="Doc/logo.png" alt="Logo" width="150">
+  <img src="Doc/Logo_1.png" alt="Logo" width="150">
 </p>
 
 <p align="center">
@@ -19,7 +19,7 @@
 It predicts hourly order demand, estimates delivery time down to the minute, and recommends the best-matched restaurants for any event, budget, and cuisine — all through a clean, mobile-first experience with a live FastAPI backend.
 
 <p align="center">
-  <img src="Doc/Home_Screen.jpg" alt="Home Screen" width="280">
+  <img src="Doc/Home_screen.jpg" alt="Home Screen" width="280">
 </p>
 
 ---
