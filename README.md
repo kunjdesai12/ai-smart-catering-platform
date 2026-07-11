@@ -70,7 +70,7 @@ The Flutter frontend talks to a FastAPI backend that serves three independently 
 Live backend status, key model stats (accuracy, restaurant coverage, response time), and quick access to all 3 AI tools.
 
 <p align="center">
-  <img src="Doc/Home_Screen.jpg" alt="Home Screen" width="280">
+  <img src="Doc/Home_screen.jpg" alt="Home Screen" width="280">
 </p>
 
 ---
